@@ -13,6 +13,15 @@ This repo is the result of following these 2 tutorials. Please refer to them if 
 
 ## Running this App:
 
+To create our Kong API Gateway, we will:
+
+1. Pull & run a Kong Docker image
+2. Create an `ai-proxy` service on that Kong API Gateway
+3. Expose a Llama model via a RESTful API using ollama
+3. Create a route on our Kong service that proxies requests to that ollama RESTful API.
+
+Here's how:
+
 1. Change directory into `~/docker-kong/compose`:
 
 ```
