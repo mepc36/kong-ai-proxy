@@ -128,11 +128,7 @@ curl -X DELETE "http://localhost:8001/services/ai-proxy/routes/53cae54a-4197-4d9
 
 Kong has made a POSTman collection available with common operations [here](https://www.postman.com/api-evangelist/kong/request/2fvao6o/delete-route).
 
-Here are docs on Kong's AI Proxy plugin:
-
-```
-https://docs.konghq.com/hub/kong-inc/ai-proxy/
-```
+Docs on Kong's AI Proxy plugin can be found [here](https://docs.konghq.com/hub/kong-inc/ai-proxy/).
 
 ## TODO:
 
